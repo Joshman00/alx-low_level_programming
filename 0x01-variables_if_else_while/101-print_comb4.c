@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main (void)
 {
 	int i, e, g;
 
@@ -19,14 +19,14 @@ int main(void)
 			g = 48;
 			while (g < 58)
 			{
-				if (e != 1 && e != g && i != g && e < i && i < g)
+				if (e != i && e != g && i != g && e < i && i < g)
 				{
 					putchar(e);
 					putchar(i);
 					putchar(g);
-					if (i == 56 && e == 55 && g == 57);
+					if (i == 56 && e == 55 && g == 57)
 					{
-						break
+						break;
 					}
 					putchar(',');
 					putchar(' ');
