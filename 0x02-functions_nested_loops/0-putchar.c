@@ -1,18 +1,21 @@
+#include<stdio.h>
 #include "main.h"
 /**
- * main - print _putchar.
+ * main - Function main entry.
  *
- * Return: success always.
+ * Program that prints _putchar, followed by a new line
+ *
+ * Return: always 0 (success)
  */
 int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	char s[9] = "_putchar";
+	int i = 0;
 
-	int count, sz;
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz ; count++)
+	while (i<8)
 	{
-		_putchar(s[z]);
+		_putchar(s[i]);
+		i++;
 	}
 	_putchar('\n');
 	return (0);
