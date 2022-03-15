@@ -7,6 +7,7 @@
 void print_alphabet(void)
 {
 	int a = 97;
+
 	int count = 1;
 	while (count <= 26)
 	{
