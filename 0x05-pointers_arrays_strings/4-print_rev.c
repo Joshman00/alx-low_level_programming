@@ -15,7 +15,10 @@ void print_rev(char *s)
 			break;
 		count++;
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 	for (count--; count >= 0; count--)
 		_putchar(s[count]);
 	_putchar('\n');

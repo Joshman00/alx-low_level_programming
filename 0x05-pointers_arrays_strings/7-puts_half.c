@@ -15,12 +15,18 @@ void puts_half(char *str)
 			break;
 		count++;
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 	if (count % 2 == 1)
 		i = count / 2;
 	else
 		i = (count - 1) / 2;
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 	for (i++; i < count; i++)
 		_putchar(str[i]);
 	_putchar('\n');
