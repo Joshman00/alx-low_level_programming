@@ -1,1 +1,1 @@
-read me
+pointers, arrays and strings
