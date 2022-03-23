@@ -5,7 +5,10 @@
  * @s: input string.
  * Return: length of a string.
  */
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 int _strlen(char *s)
 {
 	int count = 0;

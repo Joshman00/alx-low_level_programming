@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+#include "main.h"
+=======
 #include "holberton.h"
+>>>>>>> master
 
 /**
  * swap_int - swaps the values of two integers.

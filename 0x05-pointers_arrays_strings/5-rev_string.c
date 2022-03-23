@@ -10,6 +10,10 @@ void rev_string(char *s)
 	int count = 0, i, j;
 
 	char *str, temp;
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 	while (count >= 0)
 	{
 		if (s[count] == '\0')
@@ -17,6 +21,10 @@ void rev_string(char *s)
 		count++;
 	}
 	str = s;
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 	for (i = 0; i < (count - 1); i++)
 	{
 		for (j = i + 1; j > 0; j--)
