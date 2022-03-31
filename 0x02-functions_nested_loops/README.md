@@ -1,1 +1,0 @@
-nested loops un c
